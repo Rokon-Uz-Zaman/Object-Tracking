@@ -4,12 +4,6 @@
 import cv2
 import imutils
 
-
-
-
-
-
-
 cap=cv2.VideoCapture('test.mp4')
 
 while True:
@@ -22,15 +16,10 @@ while True:
         bb=cv2.selectROI(frame,False)
         cv2.destroyAllWindows()
         break
-
-
-
+	
 #create tracker obj
 tracker=cv2.TrackerCSRT_create()
 tracker.init(frame,bb)
-
-
-
 
 while True:
 	ret,frame=cap.read()
@@ -44,7 +33,6 @@ while True:
 	#key  =  cv2.waitKey(1) & 0xff
 	if cv2.waitKey(1) & 0xff== ord('q'):
 		break
-
 
 cv2.destroyAllWindows()
 
