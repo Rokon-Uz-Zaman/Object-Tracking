@@ -9,6 +9,8 @@ opencv-contrib-python	4.5.4.58
 pip	9.0.1
 setuptools	28.8.0
 
+( using python 3.7 )
+
 
 
 
