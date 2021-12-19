@@ -1,6 +1,6 @@
 
 
-#Object Tracking With GUI
+#Object Tracking With GUI using OpenCV python 
 #Auther:  A.B.M. Rokon-Uz-Zaman Roman
 
 
@@ -11,6 +11,8 @@ numpy	1.21.3
 opencv-contrib-python	4.5.4.58
 pip	9.0.1
 setuptools	28.8.0
+python version 3.7 
+
 '''
 
 import cv2  #opencv contrib
@@ -22,7 +24,6 @@ from tkinter import filedialog
 
 
 
-#filepath="test.mp4"  #work
 #filepath='test.mp4' #work
 #filepath='C:/Users/Roman/PycharmProjects/R_video player working/3.mp4' #work
 
@@ -65,7 +66,7 @@ def trackingfun(path):
 #trackingfun(filepath)
 #print(filepath)  #test
 
-##### function define section end  #############
+
 
 
 
@@ -108,7 +109,7 @@ def fileUpload():
 
 root.mainloop()
 
-#######    GUI section end #######
+
 
 
 
