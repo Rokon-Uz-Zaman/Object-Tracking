@@ -1,6 +1,11 @@
 Object Tracking using opencv python 
 
 
+
+![Object-tracking-GUI-gif](https://user-images.githubusercontent.com/26451679/148573142-ce62e86a-1aef-460e-94a9-c23c32bf606a.gif)
+
+
+
 Library needed :
 
 imutils	0.5.4
